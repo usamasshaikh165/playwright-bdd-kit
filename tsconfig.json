@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["node"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["tests/pages/*"],
+      "@helpers/*": ["tests/helpers/*"],
+      "@fixtures/*": ["tests/fixtures/*"]
+    }
+  },
+  "include": ["tests/**/*.ts", "playwright.config.ts", "global-setup.ts"]
+}

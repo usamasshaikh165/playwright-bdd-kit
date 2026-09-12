@@ -1,0 +1,23 @@
+{
+  "name": "playwright-bdd-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright + Gherkin test-automation starter kit with BDD governance rules, AI-assisted scenario generation, and a Vansah test-management importer.",
+  "type": "module",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:chromium": "playwright test --project=chromium",
+    "test:headed": "playwright test --headed --project=chromium",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "playwright:install": "playwright install --with-deps"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^22.15.29",
+    "dotenv": "^17.4.2",
+    "mailosaur": "^8.8.1",
+    "typescript": "^5.6.3"
+  }
+}

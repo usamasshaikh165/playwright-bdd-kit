@@ -1,0 +1,9 @@
+{
+  "VansahApiUrl":     "https://<your-instance>.vansah.com",
+  "VansahToken":      "<your-vansah-connect-token>",
+  "ProjectKey":       "<JIRA-PROJECT-KEY>",
+  "FolderIdentifier": "<vansah-folder-uuid>",
+  "FeatureFilePath":  "features/Login",
+  "FeatureFileName":  "Login.feature",
+  "TypeIdentifier":   ""
+}
